@@ -14,7 +14,7 @@ const BlogCard = ({ blog, deletable,handleDelete }) => {
                     <p>{description}</p>
                 </div>
             </Link>
-            {deletable && <div onClick={() => handleDelete(id)} className="absolute bg-primary p-3 rounded-full hover:scale-105 -top-2 -right-0 text-secondary group-hover:text-primary"><MdDeleteSweep size={20} className="text-secondary group-hover:text-primary"></MdDeleteSweep></div>}
+            {deletable && <div onClick={() => handleDelete(id)} className="absolute bg-primary p-3 rounded-full hover:scale-105 -top-2 -right-2 text-secondary group-hover:text-primary"><MdDeleteSweep size={20} className="text-secondary group-hover:text-primary"></MdDeleteSweep></div>}
         </div>
     );
 };
